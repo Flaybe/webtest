@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body >
+    <nav class="container2">
+        <ul>
+            <li><a href="#about" data-text="About">About</a></li>
+            <li><a href="#contact" data-text="Contact">Contact</a></li>
+            <li><a href="#portfolio" data-text="Portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="about" class="container2">
+        <h1>About me</h1>
+    </section>
+
+    <section id="contact" class="container2">
+        <ul style="font-size: 1em;">
+            <li><a href="https://linkedin.com/in/mateo-zalabardo" data-text="Linkedin" class="linkedin">Linkedin</a></li>
+            <li><a href="mailto:mateo.schutt@gmail.com" data-text="Mail" class="mail">Mail</a></li>
+        </ul>
+    </section>
+
+    
+    <section id="portfolio" class="image_container">
+        <ul style="font-size: 1em;">
+            <li><a href="#" data-text="Backend">Backend</a></li>
+            <li><a href="#" data-text="OOP">OOP</a></li>
+
+    </section>
+
+    <section class="visual"> 
+        <h1>BFS Visualizer</h1>
+        <p>Click a tile to place the <span style="color: var(--chili-red);">start</span>, <span style="color: var(--orange-crayola);">end</span>, or <span style="color: var(--light-cyan); -webkit-text-stroke: 1px var(--dark-cyan);">obstacles</span>. Press "Start" to see BFS in action!</p>
+        <div class="grid" id="grid"></div>
+        <button onclick="startBFS()">Start</button>
+        <button onclick="resetGrid()">Reset</button>
+    </section>  
+    
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                    <h3>Design</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                    <h3>Code</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                    <h3>Launch</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container2">
+        <p>© 2020 Mateo Zalabardo</p>
+    </footer>
+
+</body>
+</html>
